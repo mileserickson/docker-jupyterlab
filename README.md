@@ -4,19 +4,23 @@ A quick experiment to create a self-contained repo for JupyterLab in a container
 
 Use at your own risk.
 
+## Prerequisites
+
+* Docker
+
 ## Instructions
 
 Steps to success:
 
 ### 1. Open a Terminal.
 
-Use Git Bash (not `cmd` or Powershell) if you're on a Windows machine.
+On a Linux or Mac computer, this will be your normal Terminal application. If you're on a Windows machine, please use Git Bash (not Command Prompt or PowerShell).
 
 ### 2. Fork and clone the repository.
 
 `git clone git@github.com:your_username/docker-jupyterlab` (Note: If you have have not yet GitHub configured to use SSH, replace `git@github.com:` with `https://github.com/`.)
 
-### 4. Change into this repository's directory.
+### 3. Change into this repository's directory.
 
 `cd docker-jupyterlab`
 
