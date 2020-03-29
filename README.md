@@ -34,7 +34,7 @@ To build the container from the Dockerfile:
 
 ### 5. Run JupyterLab in the container
 
-`docker run -v 48080:48080 -p $(pwd)/nb:/nb jupyterlab`
+`docker run -p=48080:48080 -v=$(pwd)/nb:/nb jupyterlab`
 
 ### 6. Access JupyterLab in the broswer
 
